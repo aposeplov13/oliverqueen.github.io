@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load Fonts CSS Start -->
+	<script>
+		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+
+	<!-- Load Custom CSS Start -->
+	<script>loadCSS("css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+
+</head>
+
+<body>
+	<!-- header -->
+	<div class="container-fluid header">
+    <!-- header_block -->
+    <div class="container header_block">
+      <!-- navbar -->
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <a href="https://www.behance.net"  class="header_link"><i class="fa fa-behance  header_icon" aria-hidden="true"></i></a>
+          <a href="https://dribbble.com"     class="header_link"><i class="fa fa-dribbble header_icon" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com" class="header_link"><i class="fa fa-facebook header_icon" aria-hidden="true"></i></a>
+          <a href="https://twitter.com"      class="header_link"><i class="fa fa-twitter  header_icon" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com" class="header_link"><i class="fa fa-linkedin header_icon" aria-hidden="true"></i></a>
+        </div>
+        <!-- topmenu -->
+        <div class="dropdown nav navbar-nav navbar-right topmenu">
+          <button class="btn dropdown-toggle topmenu_btn" type="button" data-toggle="dropdown"></button>
+          <ul class="dropdown-menu topmenu_list">
+            <li class="topmenu_item"><a href="#" class="topmenu_link">about me</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">education</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">expirience</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">skills</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">portfolio</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">testimotioal</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">hire me</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">blog post</a></li>
+            <li class="topmenu_item"><a href="#" class="topmenu_link">contact me</a></li>
+          </ul>
+        </div><!-- topmenu END -->
+      </nav><!-- navbar END -->
+      <h1 class="maintitle">Hello!<br><span class="maintitile_small">I’m</span><span class="maintitile_small-bold"> Oliver Queen</span></h1>
+      <p class="specialization">Web & Interface Designer</p>
+    </div><!-- header_block END -->
+  </div><!-- header END -->
+	<!-- aboutme -->
+	<div class="container-fluid aboutme">
+		<!-- aboutme_block -->
+		<div class="container aboutme_block">
+			<!-- row -->
+			<div class="row">
+				<div class="col-lg-5">
+					<a class="aboutme_thumbnail">
+						<img src="img/all/aboutme_item_1920.jpg" alt="" class="aboutme_img">
+					</a>	
+					<button class="btn resumedownload_btn"><i class="fa fa-cloud-download" aria-hidden="true"></i> download resume</button>
+				</div>
+				<div class="col-lg-offset-1 col-lg-6 profile">
+					<h2 class="aboutme_title block_title">about me</h2>
+					<p class="profile_description">Hello! I’m Oliver Queen. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+					<p class="profile_name profile_label">name:<span class="profile_name-date profile_label-date">Oliver Queen</span></p>
+					<p class="profile_dateofbirth profile_label">date of birth:<span class="profile_dateofbirth-date profile_label-date">14 February 1986</span></p>
+					<p class="profile_nationality profile_label">nationality:<span class="profile_nationality-date profile_label-date">Citizen of Envato</span></p>
+					<p class="profile_address profile_label">address:<span class="profile_address-date profile_label-date">23 High Hope Blvd., Some City, Some Country</span></p>
+					<p class="profile_phone profile_label">phone:<span class="profile_phone-date profile_label-date">(123) - 456-7890, (123) - 456-7890</span></p>
+					<p class="profile_email profile_label">email:<span class="profile_email-date profile_label-date">oliver.queen@janina.com</span></p>
+				</div>
+				<div class="col-lg-12">
+					<h2 class="myinterest_title">My Interests</h2>
+					<ul class="myinterest_list">
+						<li class="myinterest_item"><i class="fa fa-pencil myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Painting</p></li>
+						<li class="myinterest_item"><i class="fa fa-plane myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Travel</p></li>
+						<li class="myinterest_item"><i class="fa fa-headphones myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Music</p></li>
+						<li class="myinterest_item"><i class="fa fa-coffee myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Coffee</p></li>
+						<li class="myinterest_item"><i class="fa fa-space-shuttle myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Space</p></li>
+						<li class="myinterest_item"><i class="fa fa-paint-brush myinterest_icon" aria-hidden="true"></i><p class="myinterest_text">Drawing</p></li>
+					</ul>
+				</div>
+			</div><!-- row END -->
+		</div><!-- aboutme_block END -->
+	</div><!-- aboutme END -->
+	<!-- education -->
+	<div class="container-fluid education">
+		<div class="container education_block">
+			<h2 class="education_title block_title">education</h2>
+			<ul class="education_timeline">
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date">
+							<h4 class="date_title">bachalor digree</h4>
+							<div class="data_block">
+								<p class="date_data">JAN 2009 - MAY 2010</p><p class="date_purpose">Defodil University</p>
+							</div>
+						</div>
+						<p class="timeline_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date-right">
+							<h4 class="date_title date_title-right">master digree</h4>
+							<div class="data_block-right">
+								<p class="date_data-right">FEB 2011 - MAR 2012</p><p class="date_purpose-right">amrder University</p>
+							</div>
+						</div>
+						<p class="timeline_text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date">
+							<h4 class="date_title">UX DESIGNER course</h4>
+							<div class="data_block">
+								<p class="date_data">JUN 2012 - MAY 2013</p><p class="date_purpose">CRAFTY University</p>
+							</div>
+						</div>
+						<p class="timeline_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date-right">
+							<h4 class="date_title date_title-right">INTERFACE DESIGNing</h4>
+							<div class="data_block-right">
+								<p class="date_data-right">AUG 2014 - JUN 2015</p><p class="date_purpose-right">KHELTAM NA University</p>
+							</div>
+						</div>
+						<p class="timeline_text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div><!-- education END -->
+	<!-- experience -->
+	<div class="container-fluid experience">
+		<div class="container experience_block">
+			<h2 class="experience_title block_title">work experience</h2>
+			<ul class="experience_timeline">
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date">
+							<h4 class="date_title">graphics designer</h4>
+							<div class="data_block">
+								<p class="date_data">JAN 2009 - MAY 2010</p><p class="date_purpose">creative alien</p>
+							</div>
+						</div>
+						<p class="timeline_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date-right">
+							<h4 class="date_title date_title-right">interaction designer</h4>
+							<div class="data_block-right">
+								<p class="date_data-right">FEB 2011 - MAR 2012</p><p class="date_purpose-right">crafty designs</p>
+							</div>
+						</div>
+						<p class="timeline_text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date">
+							<h4 class="date_title">UI/ UX DESIGNER</h4>
+							<div class="data_block">
+								<p class="date_data">JUN 2012 - MAY 2013</p><p class="date_purpose">creative alien</p>
+							</div>
+						</div>
+						<p class="timeline_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+				<li class="timeline_item">
+					<div class="timeline_body clearfix">
+						<div class="timeline_date-right">
+							<h4 class="date_title date_title-right">creative directive</h4>
+							<div class="data_block-right">
+								<p class="date_data-right">AUG 2014 - JUN 2015</p><p class="date_purpose-right">divergent studio</p>
+							</div>
+						</div>
+						<p class="timeline_text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div><!-- experience END -->
+	<!-- skills -->
+	<div class="container-fluid skills">
+    <!-- skills_top -->
+		<div class="container skills_top">
+			<h2 class="skills_title block_title">professional skills</h2>
+    </div><!-- skills_top END -->
+    <!-- skills_progressbars -->
+    <div class="container-fluid skills_progressbars">
+      <!-- progressbars -->
+      <div class="container progressbars">
+        <!-- row -->
+        <div class="row">
+          <!-- progressbar_left -->
+          <div class="col-lg-5 progressbar_left">
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">Html</label>
+              <label class="progressbar_label" style="left:95%">95%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
+            </div><!-- progressbar END -->
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">Javascript</label>
+              <label class="progressbar_label" style="left:75%">75%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div>
+            </div><!-- progressbar END -->
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">PHP</label>
+              <label class="progressbar_label" style="left:90%">90%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+            </div><!-- progressbar END -->
+          </div><!-- progressbar_left END -->
+          <!-- progressbar_right -->
+          <div class="col-lg-offset-2 col-lg-5 progressbar_right">
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">ILLUSTRATOR</label>
+              <label class="progressbar_label" style="left:70%">70%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+            </div><!-- progressbar END -->
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">PHOTOSHOP</label>
+              <label class="progressbar_label" style="left:95%">95%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%"></div>
+            </div><!-- progressbar END -->
+            <!-- progressbar_top -->
+            <div class="progressbar_top">
+              <label class="progressbar_name ">SONY VEGAS</label>
+              <label class="progressbar_label" style="left:90%">90%</label>
+            </div><!-- progressbar_top -->
+            <!-- progressbar -->
+            <div id="progressbar-html" class="progress progressbar">
+              <div class="progress-bar progressbar_value" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div>
+            </div><!-- progressbar END -->
+          </div><!-- progressbar_right END -->
+        </div><!-- row END -->
+      </div><!-- progressbars END -->
+    </div><!-- skills_progressbars END -->
+    <!-- services -->
+    <div class="container-fliud services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <!-- services_thumbnail -->
+            <div class="services_thumbnail services_thumbnail-left">
+              <p class="thumbnail_number">02.</p>
+              <h3 class="thumbnail_title">WEB DESIGN</h3>
+              <p class="thumbnail_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.</p>
+            </div><!-- services_thumbnail END -->
+          </div>
+          <div class="col-lg-4">
+            <!-- services_thumbnail -->
+            <div class="services_thumbnail">
+              <p class="thumbnail_number">01.</p>
+              <h3 class="thumbnail_title">UI/UX DESIGN</h3>
+              <p class="thumbnail_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.</p>
+            </div><!-- services_thumbnail END -->
+          </div>
+          <div class="col-lg-4">
+            <!-- services_thumbnail -->
+            <div class="services_thumbnail services_thumbnail-right">
+              <p class="thumbnail_number">03.</p>
+              <h3 class="thumbnail_title">APP DESIGN</h3>
+              <p class="thumbnail_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.</p>
+            </div><!-- services_thumbnail END -->
+          </div>
+        </div>
+      </div>
+    </div><!-- services END -->
+	</div><!-- skills END -->
+	<!-- portfolio -->
+	<div class="container-fluid portfolio">
+    <!-- portfolio_top -->
+		<div class="container portfolio_top">
+			<h2 class="portfolio_title block_title">some of my works</h2>
+    </div><!-- portfolio_top END -->
+    <!-- portfolio_gallery -->
+    <div class="container-fluid portfolio_gallery">
+      <!-- container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-offset-1 col-lg-3 card_outside">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-1.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+          <div class="col-lg-4 ">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-2.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+          <div class="col-lg-3 card_outside">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-3.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+          <div class="col-lg-offset-1 col-lg-3 card_outside">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-4.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+          <div class="col-lg-4">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-5.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+          <div class="col-lg-3 card_outside">
+            <!-- portfolio_card -->
+            <div class="portfolio_card">
+              <img src="img/all/portfolio_item-6.jpg" alt="" class="card_img">
+              <div class="card_caption">
+                <h5 class="cards_title">Branding desing</h5> 
+                <h6 class="cards_smalltitle">Logo design</h6> 
+              </div>
+            </div><!-- portfolio_card END -->
+          </div>
+        </div>
+      </div><!-- container END -->
+    </div><!-- portfolio_gallery END -->
+	</div><!-- portfolio END -->
+	<!-- testimonials -->
+	<div class="container-fluid testimotional">
+    <!-- testimonials_block -->
+		<div class="container testimotional_block">
+			<h2 class="testimotional_title block_title">CLIENT TESTIMONIALS</h2>
+			<div class="row">
+				<div class="col-lg-offset-4 col-lg-4 testimotional_response">
+					<div class="response">
+						<img src="img/all/client_4.jpg" alt="" class="response_img">
+					</div>
+					<div class="response">
+						<img src="img/all/client_1.jpg" alt="" class="response_img">
+					</div>
+					<div class="response">
+						<img src="img/all/client_5.jpg" alt="" class="response_img">
+					</div>
+					<div class="response">
+						<img src="img/all/client_6.jpg" alt="" class="response_img">
+					</div>
+				</div>
+			</div>
+			<div class="row testimotional_comments">
+				<div class="col-lg-12 comment">
+					<i class="fa fa-angle-double-down comment_icon" aria-hidden="true"></i>						
+					<p class="comment_user">John Smith</p>
+					<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto beatae dolorem, enim error eveniet harum iste molestias neque nisi placeat possimus quaerat quam.</p>
+				</div>
+				<div class="col-lg-12 comment">
+					<i class="fa fa-angle-double-down comment_icon" aria-hidden="true"></i>						
+					<p class="comment_user">Alex Tuntuni</p>
+					<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto beatae dolorem, enim error eveniet harum iste molestias neque nisi placeat possimus quaerat quam.</p>
+				</div>
+				<div class="col-lg-12 comment">
+					<i class="fa fa-angle-double-down comment_icon" aria-hidden="true"></i>
+					<p class="comment_user">Bill Watson</p>
+					<p class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto beatae dolorem, enim error eveniet harum iste molestias neque nisi placeat possimus quaerat quam.</p>
+				</div>
+			</div>
+	</div><!-- testimonials_block END -->
+	</div><!-- testimonials END -->
+	<!-- testimonials -->
+	<div class="container-fluid hireme">
+    <!-- testimonials_block -->
+		<div class="container hireme_block">
+      <div class="row">
+        <div class="col-lg-1">
+          <i class="fa fa-paper-plane hireme_icon" aria-hidden="true"></i>
+        </div>
+        <div class="col-lg-9">
+          <h3 class="hireme_title">Hire me for your awesome project</h3>
+          <p class="hireme_text">I am available for Freelance projects that depends on your project value. Hire me and get your project done!</p>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn hireme_btn">Hire me</button>
+        </div>
+      </div>
+		</div><!-- testimonials_block END -->
+	</div><!-- testimonials END -->
+	<!-- blogpost -->
+  <div class="container-fluid blogpost">
+    <!-- blogpost_block -->
+    <div class="container blogpost_block">
+      <h2 class="blogpost_title block_title">Blog Posts</h2>
+      <!-- row -->
+      <div class="row">
+        <div class="col-lg-4 blogpost_news">
+          <div class="news">
+            <img src="img/all/blogpost_1.png" alt="" class="news_img">
+            <h5 class="news_title">Montu is Going to Breakup with Tuntuni</h5>
+            <div class="news_top clearfix">
+              <p class="news_date">18, March, 2017</p>
+              <p class="news_commentscount"><span class="commentscount_date">33</span> Comments</p>
+            </div>
+            <p class="news_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+            <button class="news_btn">read more<i class="fa fa-chevron-right news_icon-btn" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4 blogpost_news">
+          <div class="news">
+            <img src="img/all/blogpost_2.png" alt="" class="news_img">
+            <h5 class="news_title">Montu is Going to Breakup with Tuntuni</h5>
+            <div class="news_top clearfix">
+              <p class="news_date">18, March, 2017</p>
+              <p class="news_commentscount"><span class="commentscount_date">33</span> Comments</p>
+            </div>
+            <p class="news_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+            <button class="news_btn">read more<i class="fa fa-chevron-right news_icon-btn" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-lg-4 blogpost_news">
+          <div class="news">
+            <img src="img/all/blogpost_3.png" alt="" class="news_img">
+            <h5 class="news_title">Montu is Going to Breakup with Tuntuni</h5>
+            <div class="news_top clearfix">
+              <p class="news_date">18, March, 2017</p>
+              <p class="news_commentscount"><span class="commentscount_date">33</span> Comments</p>
+            </div>
+            <p class="news_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+            <button class="news_btn">read more<i class="fa fa-chevron-right news_icon-btn" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div><!-- row END -->
+      <button class="btn blogpost_btn">load more</button>
+    </div><!-- blogpost_block END -->
+  </div><!-- blogpost END -->
+	<!-- contactme -->
+  <div class="container-fluid contactme">
+    <!-- contactme_block -->
+    <div class="container contactme_block">
+      <h2 class="contactme_title block_title">Contact me</h2>
+      <div class="row">
+        <div class="col-lg-6 form-group">
+          <input class="form-control contactme_input" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-lg-6 form-group">
+          <input class="form-control contactme_input" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <div class="col-lg-12">
+          <textarea class="form-control contactme_input contactme_message" id="comments" name="comments" placeholder="message" rows="9"></textarea>
+        </div>
+      </div>
+      <!-- row -->
+      <button class="btn contactme_btn">send now</button>
+    </div><!-- contactme_block END -->
+  </div><!-- contactme END -->
+	<!-- footer -->
+  <div class="container-fliud footer">
+    <div class="container footer-block">
+      <div class="row">
+        <div class="col-lg-offset-4 col-lg-4 footer_icons">
+          <a href="https://www.behance.net" class="footer_link"><i class="fa fa-behance  footer_icon" aria-hidden="true"></i></a>
+          <a href="https://dribbble.com" class="footer_link"><i class="fa fa-dribbble footer_icon" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com" class="footer_link"><i class="fa fa-facebook footer_icon" aria-hidden="true"></i></a>
+          <a href="https://twitter.com" class="footer_link"><i class="fa fa-twitter  footer_icon" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com" class="footer_link"><i class="fa fa-linkedin footer_icon" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <p class="footer_copyright">oliver © 2017. ALL RIGHTS RESERVED.</p>
+    </div>
+  </div><!-- footer END -->
+	<!-- Optimized loading JS Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Optimized loading JS End -->
+
+</body>
+</html>
